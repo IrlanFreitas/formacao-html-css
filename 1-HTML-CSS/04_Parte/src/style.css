@@ -200,6 +200,35 @@ footer {
   margin: 2em auto;
 }
 
+/*! Responsividade */
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .imagem-beneficios {
+    width: 100%;
+  }
+}
+
 /*! Pseudo Elementos e Classes */
 
 /* .titulo-principal:first-letter {

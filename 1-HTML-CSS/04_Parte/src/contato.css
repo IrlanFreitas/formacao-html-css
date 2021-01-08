@@ -48,8 +48,33 @@ thead {
   font-weight: bold;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #000;
   padding: 8px 15px;
 }
 
+/*! Responsividade */
+@media screen and (max-width: 480px) {
+  form {
+    margin: 30px auto;
+    width: 90%;
+  }
+
+  .input-padrao {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  fieldset {
+    margin: 4.5% auto;
+  }
+
+  .enviar {
+    width: 100%;
+  }
+
+  table {
+    margin: 20px auto 40px;
+  }
+}

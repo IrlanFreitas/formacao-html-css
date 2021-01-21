@@ -1,0 +1,70 @@
+Como os cegos sabem do que é a página ?
+
+Para saber sobre o que é o site, geralmente é utilizado os <h(numero de 1 - 5) />
+da página.
+
+Assim dá para descobrir a ideia geral do seu site.
+
+NVDA tem um atalho que é o H para navegar entre os headers.
+
+Cuidado: 
+
+    Alguns leitores de tela não conseguem diferenciar os h1's da tela.
+
+    Não colocar o <h1/> em excesso.
+
+    Mas com isso se pode perder um pouco no SEO.
+
+    Tags <h(números de um a cinco) /> devem ter sentido de importância também.
+
+    Semântica, o que você quer falar através desse código.
+
+    Não existe uma regra estática para projetar páginas acessíveis, precisamos sempre 
+    analisar cada contexto para saber quais as modificações devem ser realizadas.
+
+    Vamos começar a realizar modificações produtivas em nosso projeto. 
+    Veremos alguns atalhos interessantes do NVDA. Se pressionamos a tecla "K", 
+    iremos navegar entre todos os links disponíveis na página. Caso você queira 
+    voltar para o link anterior, basta pressionar "Shift + K".
+
+    Mas como os deficientes visuais possuem uma noção geral sobre do que se 
+    trata um determinado site? Normalmente os destaques estão na tag <h1>, <h2> e 
+    assim por diante, ou seja, o usuário navega entre os títulos da página utilizando a 
+    tecla "H". Ao pressionar a tecla "H", o leitor de tela narra "Aplicativos Sobre Medida", 
+    o cabeçalho do nível 1.
+
+    //! Analisar depois.
+    Para sabermos do que se trata nosso site de forma geral, leremos o título "Aplicativos na medida" 
+    e em seguida, encontraremos um pequeno texto. No entanto, no canto superior esquerdo, há a 
+    presença de um link gráfico com o logo "Apeperia" que se apresenta desnecessário na ótica de 
+    um site inclusivo, bastaria um link escrito "home" que direcionasse o usuário para a parte 
+    principal da página.
+
+Comentário Alura:
+
+    Nesta primeira aula, introduzimos ferramentas e fluxos para começar a solucionar nossos problemas 
+    de acessibilidade, com isto, aprendemos bastante:
+
+    Uso do leitor de tela:
+
+    Que pessoas cegas ou com baixa visão podem contar com o auxílio de um software que lê o 
+    conteúdo exibido na tela, estes recebem o nome de leitores de tela.
+
+    *Usando o NVDA: *
+    Vimos, configuramos e aprendemos atalhos do NVDA, leitor de tela escolhido para testar o 
+    projeto Apeperia, a fim de deixar seu uso em testes menos maçante para quem não está acostumado 
+    com a ferramenta. E também habilitamos seu "exibidor de tela" para não dependermos de ouvir sua leitura.
+
+    Semântica no HTML:
+    Tomar cuidado com a marcação de conteúdo quando estamos utilizando elementos HTML5. 
+    Vale mais por uma <div> do que usar um <aside> ou <details> erroneamente.
+
+    Testes, testes, testes:
+    O melhor caminho para deixar nosso projeto inclusivo não é apenas seguir regras e guidelines, 
+    mas testá-las por conta para começarmos a compreender os caminhos e dificuldades que muitas 
+    pessoas podem ter ao usar nosso produto e/ou serviço. Empatia.
+
+
+Link de final de aula:
+
+    https://pt.slideshare.net/MarinaDomingues7/acessibilidade-por-que-deixarmos-de-ser-amadores-para-um-pblico-que-espera-mais-de-ns

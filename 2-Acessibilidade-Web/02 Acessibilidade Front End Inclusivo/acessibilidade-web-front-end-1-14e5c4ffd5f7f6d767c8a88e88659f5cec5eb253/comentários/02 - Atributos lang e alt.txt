@@ -1,0 +1,54 @@
+É sempre importante colocar o atributo lang para a lingua que será lido pelo 
+leitor de tela, nesse caso <html lang="pt-br">.
+
+É super importante quando se tem algum block code ou qualquer texto em outra lingua
+usar o lang ajuda muito ao leitor de tela não falar errado.
+
+Sotaque:
+
+    Caso queria que uma frase, citação, ou algo parecido seja lido em inglês 
+    ou qualquer outra língua específica, é necessário o atributo lang.
+
+    Exemplo:
+
+    <p lang="en">Show me the code</p>
+
+    <p lang="es">Si, pero no mucho</p>
+
+    Obs.: Isso não vai ser lido com o mouse e sim com o K(Navegação de links) e 
+    o H(Navegação entre os <h></h> tags)
+
+____________________________________________________________________________________
+
+Resumindo a Acessibilidade ao alt.
+
+Não usar o texto "Imagem de ...", porque o leito de tela já irá indicar quando é imagem.
+
+Tentar ser o máximo possível descritivo e passar o sentido da imagem com o texto 
+alternativo.
+
+Tecla G procura as imagens com o NVDA.
+
+Tentar evitar ser redundante ao colocar o nome Foto dentro do atributo alt, pois o 
+leito de tela já irá indicar que é uma imagem.
+
+Gerando alt's automáticos com o Detectron criado pelo o Facebook.
+
+Necessário pensar sobre os SVG's:
+
+    <title>Logotipo da Apeperia</title>.
+
+    É necessário o uso da tag <title> para que seja indicado qual o sentido do svg, 
+    não é para modificar o <desc>, e caso não seja o que você quer, remova-o.
+
+    Caso tenha uma tag <a> com o <svg> dentro, é necessário utilizar o atributo
+    title da tag <a> para que possa ser encontrado pelos atalhos dos leitores de tela.
+    Seria com o alt do img só que para svg que não tem :(.
+
+    Não precisa usar os dois, alt e title na img.
+    
+Imagens:
+
+    Devem ser colocas no css.
+
+    O atributo alt vazio faz com que não seja reconhecida a imagem pelo leitor de tela.

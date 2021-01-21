@@ -1,0 +1,14 @@
+Listas:
+
+    L - Para navegar entre as listas da página, lendo tudo na lista.
+    list-style influencia na leitura do leitor de tela, caso não queria que seja lido, usar o none.
+
+    Usar o x ou o @ para gênero atrapalha os leitores de tela, como todxs ou tod@s.
+
+    display: none; Faz com o que o elemento não seja lido pelo leitor de tela.
+
+Links:
+
+    https://webaim.org/techniques/css/invisiblecontent/
+
+    https://webaim.org/resources/shortcuts/nvda

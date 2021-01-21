@@ -52,3 +52,10 @@ Imagens:
     Devem ser colocas no css.
 
     O atributo alt vazio faz com que não seja reconhecida a imagem pelo leitor de tela.
+
+
+Links Relacionados:
+
+    https://www.youtube.com/watch?v=5FJJuEVt5sA
+
+    http://www.reinaldoferraz.com.br/acessibilidade-seo-e-svg/

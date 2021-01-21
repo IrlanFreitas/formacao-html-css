@@ -27,7 +27,14 @@
 }
 
 .contatoCampo-checkbox {
-  display: none;
+  /* display: none !important; */
+  /* visibility: hidden; */
+
+  /*! Desaparecendo com o elemento e ainda é lido pelo leito de tela */
+  position: absolute;
+  left: -99999999px;
+  opacity: 0;
+
 }
 
 .contatoCampo-icone {

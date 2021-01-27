@@ -1,0 +1,32 @@
+Navegando com o teclado:
+    
+    Usando o leitor de tela (NVDA)
+    Tecla TAB
+
+Jump to Principal Content:
+
+    Usando a tecla TAB foi necessário criar um link ancora escondido
+    para que o pcd com a navegação possa ir direto para o conteúdo 
+    principal do site.
+
+Role
+
+    Atributo que serve para mudar o papel de um elemento do html.
+    Onde ajuda os leitores de tela em entender o papel da tag na 
+    página.
+
+    https://www.w3.org/TR/using-aria/#intro
+
+Atalhos dos leitores de tela: 
+
+    https://developer.paciellogroup.com/blog/2015/01/basic-screen-reader-com
+    
+A importância do html semântico nisso tudo
+
+WAI-ARIA - Expansão do html:
+
+    aria-labelledby="tituloDestaque1" - Usamos esse para mudar o rotulo do link para o da imagem
+
+Vanessa Me Tonini: WAI-ARIA: Acessibilidade em tempo real:
+
+    https://www.youtube.com/watch?v=l_NBdzqYm44

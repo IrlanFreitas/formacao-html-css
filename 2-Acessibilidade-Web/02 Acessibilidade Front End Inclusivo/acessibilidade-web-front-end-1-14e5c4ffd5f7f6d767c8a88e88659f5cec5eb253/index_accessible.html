@@ -24,12 +24,13 @@
     <link rel="stylesheet" href="css/rodape.css" />
     <link rel="stylesheet" href="css/dialogNewsletter.css" />
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width" />
   </head>
   <body>
+    <a href="#conteudoPrincipal" class="pularNavegacao">
+      Pular para conteúdo principal
+    </a>
+
     <header class="cabecalho container">
       <a href="#" class="cabecalho-logo" title="Home Apeperia">
         <svg
@@ -97,9 +98,11 @@
       </nav>
     </header>
 
-    <main class="conteudo">
+    <main class="conteudo" role="main">
       <section class="secaoDestaque">
-        <h1 class="secaoDestaque-titulo">APLICATIVOS NA MEDIDA</h1>
+        <h1 class="secaoDestaque-titulo" id="conteudoPrincipal">
+          APLICATIVOS NA MEDIDA
+        </h1>
         <h2 class="secaoDestaque-texto">
           A Apeperia é uma startup com um jeito inovador de comprar e montar
           aplicativos mobile e web para pequenas e médias empresas
@@ -349,33 +352,41 @@
           <a
             href="http://blog.apeperia.com.br/design/conheca-primeiras-etapas-criacao-logotipo-teste-teste"
             class="secaoDestaques-link"
+            aria-labelledby="tituloDestaque1"
           >
-            <div class="secaoDestaques-destaque">
+            <figure class="secaoDestaques-destaque">
               <img
                 src="img/comecando-criar-logotipo.png"
                 class="secaoDestaques-destaque-img"
                 alt="Ferramentas de designer. Ilustração"
               />
-              <p class="secaoDestaques-destaque-titulo" id="tituloDestaque1">
+              <figcaption
+                class="secaoDestaques-destaque-titulo"
+                id="tituloDestaque1"
+              >
                 Conheça as primeiras etapas na criação de um logotipo
-              </p>
-            </div>
+              </figcaption>
+            </figure>
           </a>
 
           <a
             href="http://blog.apeperia.com.br/design/dicas-como-fotografar-com-celular"
             class="secaoDestaques-link"
+            aria-labelledby="tituloDestaque2"
           >
-            <div class="secaoDestaques-destaque">
+            <figure class="secaoDestaques-destaque">
               <img
                 src="img/dicas-fotografia.png"
                 class="secaoDestaques-destaque-img"
                 alt="Moça mostrando câmera para rapaz"
               />
-              <p class="secaoDestaques-destaque-titulo" id="tituloDestaque2">
+              <figcaption
+                class="secaoDestaques-destaque-titulo"
+                id="tituloDestaque2"
+              >
                 Veja dicas de como fotografar usando seu celular
-              </p>
-            </div>
+              </figcaption>
+            </figure>
           </a>
 
           <button
@@ -420,8 +431,9 @@
             </p>
 
             <div class="contatoCampo contatoCampo--sucesso">
-              <label>Nome: </label>
+              <label for="nome">Nome: </label>
               <input
+                id="nome"
                 type="text"
                 class="contatoCampo--validouFoi"
                 value="Natan Souza"
@@ -430,16 +442,22 @@
             </div>
 
             <div class="contatoCampo contatoCampo--erro">
-              <label>Email: </label>
-              <input type="email" class="contatoCampo--validouErro" required />
+              <label for="email">Email: </label>
+              <input
+                id="email"
+                type="email"
+                class="contatoCampo--validouErro"
+                required
+              />
               <span class="contatoCampo-msg contatoCampo-msg--erro">
                 Você quis dizer <a href="#">gmail.com?</a>
               </span>
             </div>
 
             <div class="contatoCampo contatoCampo--erro">
-              <label>Telefone: </label>
+              <label for="telefone">Telefone: </label>
               <input
+                id="telefone"
                 type="text"
                 class="contatoCampo--validouErro"
                 placeholder="(11) 5571-2751"
@@ -450,8 +468,9 @@
             </div>
 
             <div class="contatoCampo">
-              <label>CEP: </label>
+              <label for="cep">CEP: </label>
               <input
+                id="cep"
                 type="text"
                 maxlength="8"
                 placeholder="Exemplo: 04101-300"
@@ -460,57 +479,67 @@
             </div>
 
             <div class="contatoCampo">
-              <label>Endereço: </label>
+              <label for="endereco">Endereço: </label>
               <input
+                id="endereco"
                 type="text"
                 class="contatoCampo-campoDesabilitado"
-                disabled
+                readonly
                 value="Rua Vergueiro"
               />
             </div>
 
             <div class="contatoCampo">
-              <label>Bairro: </label>
+              <label for="bairro">Bairro: </label>
               <input
+                id="bairro"
                 type="text"
                 class="contatoCampo-campoDesabilitado"
-                disabled
+                readonly
                 value="Vila Mariana"
               />
             </div>
 
             <div class="contatoCampo">
-              <label>Cidade: </label>
+              <label for="cidade">Cidade: </label>
               <input
+                id="cidade"
                 type="text"
                 class="contatoCampo-campoDesabilitado"
-                disabled
+                readonly
                 value="São Paulo"
               />
             </div>
 
             <div class="contatoCampo">
-              <label>Estado: </label>
+              <label for="estado">Estado: </label>
               <input
+                id="estado"
                 type="text"
                 class="contatoCampo-campoDesabilitado"
-                disabled
+                readonly
                 value="SP"
               />
             </div>
 
             <div class="contatoCampo">
-              <label>Mensagem: </label>
-              <textarea name="" cols="30" rows="10" required></textarea>
+              <label for="mensagem">Mensagem: </label>
+              <textarea
+                id="mensagem"
+                name=""
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
             </div>
 
             <div class="contatoCampo">
               <input
-              id="receberEmail"
-              class="contatoCampo-checkbox"
-              type="checkbox"
-              checked
-              value="receberDestaques"
+                id="receberEmail"
+                class="contatoCampo-checkbox"
+                type="checkbox"
+                checked
+                value="receberDestaques"
               />
               <label class="contatoCampo-label" for="receberEmail">
                 Receber destaques por email
@@ -551,7 +580,15 @@
           <video
             src="img/formacao-java.mp4"
             class="secaoInstitucional-video"
-          ></video>
+            controls
+          >
+            <track
+              src="img/legenda-portugues-brasil.vtt"
+              kind="subtitles"
+              srclang="pt-br"
+              label="Português"
+            >
+          </video>
         </div>
       </section>
       <!--fim .secaoInstitucional-->
@@ -610,6 +647,7 @@
         </nav>
       </div>
     </footer>
+
     <script src="js/carousel.js"></script>
     <script src="js/dialog.js"></script>
   </body>

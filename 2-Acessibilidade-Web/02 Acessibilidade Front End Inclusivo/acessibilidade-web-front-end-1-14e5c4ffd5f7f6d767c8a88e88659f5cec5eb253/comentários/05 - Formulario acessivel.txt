@@ -1,0 +1,34 @@
+Não usar placeholder com label.
+
+Usar sempre label for com o id do input para que isso seja lido de forma
+correta pelos leitores de tela
+
+Exemplo:
+    <div class="contatoCampo">
+        <label for="cep">CEP: </label>
+        <input
+            id="cep"
+            type="text"
+            maxlength="8"
+            placeholder="Exemplo: 04101-300"
+            required/>
+    </div>
+
+Trocar o atributo disabled para readonly, assim os leitores de tela
+não pularão os campos que estão desabilitados para consulta, 
+como o endereço na maioria dos casos. Ainda ganha o foco com o TAB
+para que o leitor consiga lê-lo.
+
+Não proibir o usuário de fazer zoom no celular.
+
+Dicas finais
+
+    Faça o curso inicial de JavaScript aqui da Alura, vamos precisar dele para melhorar o projeto no próximo curso (ainda no forno e sem previsão, mas sendo preparado com muito carinho);
+    
+    Te encorajo a testar o projeto usando o VoiceOver, Orca, Jaws, entenda as diferenças entre eles, poste no fórum suas descobertas!;
+
+    Se a sua empresa não tem, comece você a colocar a cultura de acessibilidade;
+
+    Melhor dos mundos é ter uma pessoa cega para testar seus projetos, mas não devemos usar isso como desculpa impeditivo para não fazer nosso trabalho da melhor forma possível;
+
+    Acessibilidade não é caridade, é empatia.

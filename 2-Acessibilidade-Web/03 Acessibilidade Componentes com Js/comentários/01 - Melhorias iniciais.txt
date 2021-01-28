@@ -1,0 +1,2 @@
+Foi mudado o h2 abaixo do h1 de APLICATIVOS NA MEDIDA para p e o h4 para span dos preços
+por conta de ser desnecessário, tudo isso via feedback do usuário.

@@ -10,9 +10,9 @@ Em cima disso, aplicamos o layout CSS que também é muito mais que apenas coloc
 E é muito fácil não dar a atenção devida a esses **fundamentos da Web**.
 
  - [x] HTML5 e CSS3 parte 1:  A primeira página da Web
- - [ ] HTML5 e CSS3 parte 2: Posicionamento, listas e navegação
- - [ ] HTML5 e CSS3 parte 3: Trabalhando com formulários e tabelas
- - [ ] HTML5 e CSS3 parte 4: Avançando no CSS
+ - [x] HTML5 e CSS3 parte 2: Posicionamento, listas e navegação
+ - [x] HTML5 e CSS3 parte 3: Trabalhando com formulários e tabelas
+ - [x] HTML5 e CSS3 parte 4: Avançando no CSS
 
 ## 2 Acessibilidade
 Ao criarmos um produto queremos que ele atinja o maior número de pessoas possível. 
@@ -21,8 +21,8 @@ Assim temos uma maior chance desse produto ser um sucesso. Para isso, não podem
 
 Desde o início do nosso projeto devemos pensar sobre questões de **acessibilidade** e por isso é importante que você estude as boas práticas constantemente.
 
- - [ ] Acessibilidade web: introdução a designs inclusivos
- - [ ] Acessibilidade web parte 1: tornando seu front-end inclusivo
+ - [x] Acessibilidade web: introdução a designs inclusivos
+ - [x] Acessibilidade web parte 1: tornando seu front-end inclusivo
  - [ ] Acessibilidade web parte 2: Componentes acessíveis com um pouco de JavaScript
 
 ## 3 Javascript

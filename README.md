@@ -64,7 +64,7 @@ Pensando nisso foram criados alguns **padrões** que se seguidos desde o inicio 
 
 Com a quantidade de dispositivos que acessam nossos sites todos os dias, e a quantidade cada vez maior de animações, efeitos e interações sendo colocadas no front-end é essencial que você entenda **como a web funciona** e como podemos **utilizar melhor os recursos** para tornar nossos sites cada vez **mais rápidos**.
 
- - [ ] HTTP: Entendendo a web por baixo dos panos
+ - [x] HTTP: Entendendo a web por baixo dos panos
  - [ ] Performance Web I: otimizando o front-end
  - [ ] Performance Web II: Critical Path, HTTP/2 e Resource Hints
 

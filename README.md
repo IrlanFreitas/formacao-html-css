@@ -35,7 +35,7 @@ Desde o início do nosso projeto devemos pensar sobre questões de **acessibilid
 
 Atualmente é muito difícil achar sites 100% estáticos, por isso que desenvolvedores front-end precisam conhecer a linguagem mais utilizada na web e no mundo, o **JavaScript**.
 
- - [ ] JavaScript: Programando na linguagem da web
+ - [x] JavaScript: Programando na linguagem da web
 #
 ## 4 Avançando com CSS
 
@@ -56,7 +56,7 @@ A grande **diversidade** de tamanhos, formatos e resoluções de telas atualment
 
 Cada vez mais os usuários querem uma **experiência** ótima independente se estão trabalhando no computador, celular ou tablet e isso torna imprescindível sabermos como criar sites que se **adaptam** à tela que estamos usando.
 
- - [ ] Web Design Responsivo: Páginas que se adaptam do mobile ao desk
+ - [x] Web Design Responsivo: Páginas que se adaptam do mobile ao desk
  - [ ] Bootstrap 4: Criando uma landing page responsiva
 
 #
@@ -73,7 +73,7 @@ Pensando nisso foram criados alguns **padrões** que se seguidos desde o inicio 
 
 Com a quantidade de dispositivos que acessam nossos sites todos os dias, e a quantidade cada vez maior de animações, efeitos e interações sendo colocadas no front-end é essencial que você entenda **como a web funciona** e como podemos **utilizar melhor os recursos** para tornar nossos sites cada vez **mais rápidos**.
 
- - [ ] HTTP: Entendendo a web por baixo dos panos
+ - [x] HTTP: Entendendo a web por baixo dos panos
  - [ ] Performance Web I: otimizando o front-end
  - [ ] Performance Web II: Critical Path, HTTP/2 e Resource Hints
 

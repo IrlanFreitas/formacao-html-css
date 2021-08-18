@@ -1,5 +1,10 @@
 # Formação Html e CSS
 
+<!-- ![Html e Css](./assets/html-css-logo.webp) -->
+
+<img src="./assets/html-css-logo.webp" height="300" width="1500" />
+
+#
 
 ## 1 HTML & CSS
 
@@ -14,6 +19,7 @@ E é muito fácil não dar a atenção devida a esses **fundamentos da Web**.
  - [x] HTML5 e CSS3 parte 3: Trabalhando com formulários e tabelas
  - [x] HTML5 e CSS3 parte 4: Avançando no CSS
 
+# 
 ## 2 Acessibilidade
 Ao criarmos um produto queremos que ele atinja o maior número de pessoas possível. 
 
@@ -24,13 +30,13 @@ Desde o início do nosso projeto devemos pensar sobre questões de **acessibilid
  - [x] Acessibilidade web: introdução a designs inclusivos
  - [x] Acessibilidade web parte 1: tornando seu front-end inclusivo
  - [ ] Acessibilidade web parte 2: Componentes acessíveis com um pouco de JavaScript
-
+# 
 ## 3 Javascript
 
 Atualmente é muito difícil achar sites 100% estáticos, por isso que desenvolvedores front-end precisam conhecer a linguagem mais utilizada na web e no mundo, o **JavaScript**.
 
  - [ ] JavaScript: Programando na linguagem da web
-
+#
 ## 4 Avançando com CSS
 
 A Web de antigamente parava em algumas poucas propriedades do CSS. Mas não mais. O mundo evoluiu, novas exigências surgiram, e a Web cresceu junto. 
@@ -43,6 +49,7 @@ Desde **pré-processamento de CSS** com **SASS** até o uso de ferramentas de de
  - [ ] Flexbox: Posicione elementos na tela
  - [ ] CSS Grid: Simplificando layouts
 
+#
 ## 5 Layouts Responsivos
 
 A grande **diversidade** de tamanhos, formatos e resoluções de telas atualmente torna impossível criarmos um site que não seja responsivo. 
@@ -52,6 +59,7 @@ Cada vez mais os usuários querem uma **experiência** ótima independente se es
  - [ ] Web Design Responsivo: Páginas que se adaptam do mobile ao desk
  - [ ] Bootstrap 4: Criando uma landing page responsiva
 
+#
 ## 6 Arquitetura CSS
 
 Se não tomarmos cuidado, em projetos grandes, é muito comum não sabermos mais onde as coisas se encontram além de vermos uma mistura de padrões de nomes das classes e IDs dos nossos objetos.
@@ -60,6 +68,7 @@ Pensando nisso foram criados alguns **padrões** que se seguidos desde o inicio 
 
  - [ ] Arquitetura CSS: Descomplicando os problemas
 
+#
 ## 7 Otimizações e Performance
 
 Com a quantidade de dispositivos que acessam nossos sites todos os dias, e a quantidade cada vez maior de animações, efeitos e interações sendo colocadas no front-end é essencial que você entenda **como a web funciona** e como podemos **utilizar melhor os recursos** para tornar nossos sites cada vez **mais rápidos**.

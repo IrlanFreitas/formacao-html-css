@@ -49,7 +49,7 @@ A grande **diversidade** de tamanhos, formatos e resoluções de telas atualment
 
 Cada vez mais os usuários querem uma **experiência** ótima independente se estão trabalhando no computador, celular ou tablet e isso torna imprescindível sabermos como criar sites que se **adaptam** à tela que estamos usando.
 
- - [ ] Web Design Responsivo: Páginas que se adaptam do mobile ao desk
+ - [x] Web Design Responsivo: Páginas que se adaptam do mobile ao desk
  - [ ] Bootstrap 4: Criando uma landing page responsiva
 
 ## 6 Arquitetura CSS

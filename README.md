@@ -29,7 +29,7 @@ Desde o início do nosso projeto devemos pensar sobre questões de **acessibilid
 
 Atualmente é muito difícil achar sites 100% estáticos, por isso que desenvolvedores front-end precisam conhecer a linguagem mais utilizada na web e no mundo, o **JavaScript**.
 
- - [ ] JavaScript: Programando na linguagem da web
+ - [x] JavaScript: Programando na linguagem da web
 
 ## 4 Avançando com CSS
 

@@ -26,7 +26,7 @@
 
     <meta name="viewport" content="width=device-width" />
   </head>
-  <body>
+  <body id="conteudoForaDialog">
     <a href="#conteudoPrincipal" class="pularNavegacao">
       Pular para conteúdo principal
     </a>
@@ -406,21 +406,22 @@
           </button>
         </div>
 
-        <div class="dialogNewsletter" id="dialogNewsletter">
+        <div role="dialog" aria-labelledby="tituloDialog"  class="dialogNewsletter" id="dialogNewsletter">
           <div class="dialogNewsletter-body">
-            <h2 class="dialogNewsletter-titulo">News sem spam</h2>
+            <h2 class="dialogNewsletter-titulo" id="tituloDialog">News sem spam</h2>
             <h3 class="dialogNewsletter-texto">
               Assine nossa newsletter para receber notícias técnicas sem spam!
             </h3>
             <form class="dialogNewsletter-form">
-              <label class="dialogNewsletter-label"> Email: </label>
+              <label class="dialogNewsletter-label" for="emailNewsletter"> Email: </label>
               <input
-                type="text"
+                id="emailNewsletter"
+                type="email"
                 class="dialogNewsletter-campo"
                 placeholder="Digite seu e-mail..."
               />
-              <button class="dialogNewsletter-btn">Assinar newsletter</button>
-              <button class="dialogNewsletter-fechar">X</button>
+              <button class="dialogNewsletter-btn" type="submit">Assinar newsletter</button>
+              <button class="dialogNewsletter-fechar" type="button" aria-label="Fechar janela modal">Fechar modal</button>
             </form>
           </div>
           <div class="dialogNewsletter-overlay"></div>
@@ -658,6 +659,7 @@
     </footer>
 
     <script src="js/carousel.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Map,Set,Element.prototype.matches,Node.prototype.contains"></script>
     <script src="js/dialog.js"></script>
   </body>
 </html>

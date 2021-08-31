@@ -1,19 +1,38 @@
 // Variáveis
-var btnAbreDialog = document.querySelector('#abreDialog');
-var dialog = document.querySelector('.dialogNewsletter');
-var dialogBody = document.querySelector('.dialogNewsletter-body');
-var dialogOverlay = document.querySelector('.dialogNewsletter-overlay');
+const btnAbreDialog = document.querySelector('#abreDialog');
+const dialog = document.querySelector('.dialogNewsletter');
+const dialogBody = document.querySelector('.dialogNewsletter-body');
+const dialogOverlay = document.querySelector('.dialogNewsletter-overlay');
+const conteudoForaDialog = document.querySelector("#conteudoForaDialog")
+const video = document.querySelector('video')
 
+btnAbreDialog.style.display = "block";
 
 // Quando abrir a dialog...
-btnAbreDialog.addEventListener('click', function() {
+btnAbreDialog.addEventListener('click', () => {
   dialog.classList.add('dialogNewsletter--aberto');
+  document.querySelector(".dialogNewsletter-campo").focus();
+  conteudoForaDialog.inert = true
+
+  video.removeAttribute('controls');
 });
 
-function fechandoDialog() {
+const fecharDialog = () => {
   document.activeElement.blur();
-  dialog.classList.remove('dialogNewsletter--aberto');     
+  dialog.classList.remove('dialogNewsletter--aberto');
+  conteudoForaDialog.inert = false
+  btnAbreDialog.focus();
+
+  video.setAttribute('controls', true);
 }
 
+
 // Listeners
-document.querySelector('.dialogNewsletter-fechar').addEventListener('click', fechandoDialog);
+document.querySelector('.dialogNewsletter-fechar').addEventListener('click', fecharDialog);
+dialogOverlay.addEventListener('click', fecharDialog);
+
+document.addEventListener('keyup', (event) => {
+  if (event.code == "Escape") {
+    fecharDialog();
+  }
+})

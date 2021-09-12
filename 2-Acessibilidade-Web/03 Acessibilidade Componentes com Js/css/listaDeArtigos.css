@@ -20,13 +20,13 @@
 }
 
 
-.listaDeArtigos-item:not(:target):first-child{
+/* .listaDeArtigos-item:not(:target):first-child{
   display: inline-block;
 }
 
 .listaDeArtigos-item:target {
   display: inline-block;
-}
+} */
 
 
 

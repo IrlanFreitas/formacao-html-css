@@ -253,7 +253,9 @@
       <section class="secaoBlog container">
         <h2 class="secaoBlog-titulo tituloPadrao">BLOG</h2>
 
-        <ul class="listaDeArtigos">
+        <h3 id="tituloBlog" class="escondeVisualmente">Lista de artigos mais vistos da semana</h3>
+
+        <ol class="listaDeArtigos" >
           <li id="new0" class="listaDeArtigos-item">
             <article class="listaDeArtigos-artigo">
               <img
@@ -318,7 +320,7 @@
               </p>
             </article>
           </li>
-        </ul>
+        </ol>
 
         <nav>
           <ul class="listaDeArtigos-slider">
@@ -328,7 +330,7 @@
                 data-sliderItem="0"
                 class="listaDeArtigos-slider-item listaDeArtigos-slider-item--ativo"
               >
-                Notícia 1
+                Notícia 1 
               </a>
             </li>
             <li>
@@ -435,10 +437,10 @@
           <h2 class="tituloPadrao">CONTATO</h2>
 
           <form class="secaoContato-form">
-            <p class="secaoContato-form-legend">
+            <legend class="secaoContato-form-legend">
               Oi, tudo bem? Fale com a gente! Preencha seus dados e sua
               mensagem:
-            </p>
+            </legend>
 
             <div class="contatoCampo contatoCampo--sucesso">
               <label for="nome">Nome: </label>
@@ -661,5 +663,6 @@
     <script src="js/carousel.js"></script>
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Map,Set,Element.prototype.matches,Node.prototype.contains"></script>
     <script src="js/dialog.js"></script>
+    <script src="js/validacaoCep.js"></script>
   </body>
 </html>

@@ -453,16 +453,15 @@
               />
             </div>
 
-            <div class="contatoCampo contatoCampo--erro">
+            <div class="contatoCampo ">
               <label for="email">Email: </label>
               <input
                 id="email"
                 type="email"
-                class="contatoCampo--validouErro"
                 required
               />
-              <span class="contatoCampo-msg contatoCampo-msg--erro">
-                Você quis dizer <a href="#">gmail.com?</a>
+              <span id="sugestao-email" class="contatoCampo-msg contatoCampo-msg--erro">
+                <!-- Você quis dizer <a href="#">gmail.com?</a> -->
               </span>
             </div>
 
@@ -664,5 +663,7 @@
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Map,Set,Element.prototype.matches,Node.prototype.contains"></script>
     <script src="js/dialog.js"></script>
     <script src="js/validacaoCep.js"></script>
+    <script src="js/mailcheck.js"></script>
+    <script src="js/mailcheck-config.js"></script>
   </body>
 </html>

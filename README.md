@@ -29,7 +29,7 @@ Desde o início do nosso projeto devemos pensar sobre questões de **acessibilid
 
  - [x] Acessibilidade web: introdução a designs inclusivos
  - [x] Acessibilidade web parte 1: tornando seu front-end inclusivo
- - [ ] Acessibilidade web parte 2: Componentes acessíveis com um pouco de JavaScript
+ - [x] Acessibilidade web parte 2: Componentes acessíveis com um pouco de JavaScript
 # 
 ## 3 Javascript
 

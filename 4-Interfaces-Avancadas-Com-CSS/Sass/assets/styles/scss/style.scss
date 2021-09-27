@@ -1,8 +1,23 @@
+// ! Variaveis
+
 $purple: #A050BE;
 $yellow: #FABE50;
 $light-grey: #EAEAEB;
 $dark-grey: #464646;
 $img-width: 45%;
+
+// ! Placeholder Selector
+
+%no-decoration { text-decoration: none; }
+%underline-decoration { text-decoration: underline; }
+
+// ! Mixin
+
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 //! Header
 
@@ -219,8 +234,120 @@ $img-width: 45%;
             color: $purple;
         }
     }
+
+    &__sidebar {
+
+        width: 25%;
+        padding: 40px 10px;
+    }
+
+    .sidebar {
+
+        &__top {
+            border: 2px solid $light-grey;
+            padding: 15px 20px;
+        }
+
+        &__title {
+            background-color: $yellow;
+            text-align: center;
+            padding: 10px 20px;
+            margin: 0;
+            letter-spacing: 1.5px;
+        }
+
+        &__posts {
+            // margin: 0;
+            // padding: 0;
+            // list-style: none;
+            @include reset-list();
+        }
+
+        &__list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 15px 0;
+
+            &:not(:last-child) {
+                border-bottom: 2px dashed $light-grey;
+            }
+        }
+
+        &__img {
+            width: 40%;
+        }
+
+        &__details {
+            width: 50%;
+            padding-left: 10px;
+        }
+
+        &__post-title {
+            font-size: 14px;
+            color: $purple;
+            @extend %no-decoration;
+
+            &:hover {
+                @extend %underline-decoration;
+            }
+        }
+
+        &__post-date {
+            font-size: 12px;
+            margin: 5px 0 0 0;
+        }
+
+    }
 }
 
+// ! Article
+
+.article {
+
+    width: 80%;
+    margin: 0 auto 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    &__title {
+        background-color: $light-grey;
+        text-align: center;
+        padding: 20px;
+    }
+
+    &__h1 {
+        font-size: 22px;
+        color: $dark-grey;
+        letter-spacing: 1px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .breadcrumb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__link {
+            font-size: 12px;
+            @extend %no-decoration;
+            color: $dark-grey;
+
+            &:hover {
+                @extend %underline-decoration;
+                color: $purple;
+            }
+        }
+
+        &__img {
+            width: 10px;
+            margin: 8px;
+        }
+    }
+}
 
 // ! About
 
@@ -313,7 +440,7 @@ $img-width: 45%;
     //     }
     // }
 
-    &__img2 {
+    &__img-description {
         width: $img-width;
     }
 

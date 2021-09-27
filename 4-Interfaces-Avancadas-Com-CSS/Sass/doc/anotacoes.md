@@ -50,6 +50,8 @@ Nesting (Agrupamento) e Parent Selector (&).
         }
     ```
 
+Placeholder Selector (%) e Extend: 
+
 Arquitetura de CSS - BEM:
 
     CSS é simples de se aprender e complexo de ser mantido. Conforme um projeto cresce, a manutenção do CSS vai ficando cada vez mais difícil, e para isso foram surgindo soluções, e o BEM é uma delas. BEM é um padrão de nomenclatura para manter o projeto simples e organizado. Ele foi criado pela Yandex e tenta resolver o problema de nomenclatura e estrutura do CSS permitindo facilitar e escalar o código, de forma que qualquer desenvolvedor tenha autonomia para mexer em qualquer projeto. A sigla BEM significa Block Element Modifier, em português, Bloco, Elemento, Modificador. Esses três pilares são a base dessa metodologia, e também as categorias em que os elementos são divididos.

@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gatito PetShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../assets/styles/css/reset.css" />
     <link rel="stylesheet" href="../assets/styles/css/style.css" />
-
-    <title>Gatito Petshop</title>
   </head>
   <body>
     <header class="header">
@@ -17,104 +14,111 @@
       <nav class="header__menu menu">
         <ul class="menu__list">
           <li class="menu__links">
-            <a class="menu__link" href="index.html" rel="noopener noreferrer"
-              >Página inicial</a
-            >
+            <a href="index.html" class="menu__link">Página inicial</a>
           </li>
           <li class="menu__links">
-            <a class="menu__link" href="about.html" rel="noopener noreferrer"
-              >Sobre nós</a
-            >
+            <a href="about.html" class="menu__link">Sobre nós</a>
           </li>
           <li class="menu__links">
-            <a class="menu__link" href="index.html" rel="noopener noreferrer"
-              >Cães</a
-            >
+            <a href="collection.html" class="menu__link">Cães</a>
           </li>
           <li class="menu__links">
-            <a class="menu__link" href="index.html" rel="noopener noreferrer"
-              >Gatos</a
-            >
+            <a href="collection.html" class="menu__link">Gatos</a>
           </li>
           <li class="menu__links">
-            <a class="menu__link" href="index.html" rel="noopener noreferrer"
-              >Pássaros</a
-            >
+            <a href="collection.html" class="menu__link">Pássaros</a>
+          </li>
+          <li class="menu__links">
+            <a href="contact.html" class="menu__link">Contato</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main class="main">
-
-      <div class="main__content">
-        <article class="main__post">
-          <a class="main__title" href="./article.html"
+    <article class="article">
+      <div class="article__title">
+        <h1 class="article__h1">
+          Cuidados com os animais durante a quarentena
+        </h1>
+        <div class="article__breadcrumb breadcrumb">
+          <a href="index.html" class="breadcrumb__link">Home</a>
+          <img src="../assets/img/arrow.svg" alt="Seta" class="breadcrumb__img" />
+          <a href="article.html" class="breadcrumb__link"
             >Cuidados com os animais durante a quarentena</a
           >
-          <div class="main__subtitle">
-            <p class="main__date">20/08/2020</p>
-            <span class="main__tag">Cães</span>
-          </div>
-          <div class="main__details">
-            <img class="main__img" src="../assets/img/dog.jpg" alt="Cachorro" />
-            <p class="main__description">
-              O Lorem Ipsum é um texto modelo da indústria tipográfica e de
-              impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por
-              estas indústrias desde o ano de 1500, quando uma misturou os
-              caracteres de um texto para criar um espécime de livro.
-            </p>
-            <a href="#" class="main__btn">Ler mais</a>
-            <div class="main__info">
-              <div class="main__author">
-                <p class="main__p">by Allen</p>
-              </div>
-              <div class="main__comments">
-                <a href="#" class="main__a">2 comentários</a>
-              </div>
-            </div>
-          </div>
-        </article>
+        </div>
       </div>
+      <img src="../assets/img/dog.jpg" alt="Cachorro" class="article__img" />
+      <div class="article__details">
+        <span class="article__date">20/08/2020</span>
+        <span class="article__tag">Cães</span>
+      </div>
+      <div class="article__content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+          viverra velit massa, quis semper nunc consectetur sed. Pellentesque
+          vehicula cursus blandit. Praesent porttitor tempor magna sit amet
+          maximus. Orci varius natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Duis pellentesque, nulla at feugiat
+          bibendum, metus nunc gravida lorem, nec ultricies velit nulla nec
+          justo. Fusce quis vestibulum eros. Pellentesque habitant morbi
+          tristique senectus et netus et malesuada fames ac turpis egestas.
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia curae; Nunc cursus fringilla blandit. Donec gravida
+          nibh et nibh luctus porta. In hac habitasse platea dictumst. Donec vel
+          mollis ligula, eu tristique velit.
+        </p>
 
-      <!-- <div class="main__sidebar sidebar">
-        <aside class="sidebar__top">
-          <p class="sidebar__title"></p>
-          <ul class="sidebar__posts">
-            <li class="sidebar__list">
-              <img src="../assets/img/cat.jpg" alt="Gato" class="sidebar__img">
-              <div class="sidebar__details">
-                <a href="./article.html" class="sidebar__post-title">Adotar um gato: tudo o que você precisa saber</a>
-                <p class="sidebar__post-date">15/08/2020</p>
-              </div>
-            </li>
-            <li class="sidebar__list">
-              <img src="../assets/img/pc.jpg" alt="Gato" class="sidebar__img">
-              <div class="sidebar__details">
-                <a href="./article.html" class="sidebar__post-title">Cuidados com seu pet durante a pandemia</a>
-                <p class="sidebar__post-date">13/08/2020</p>
-              </div>
-            </li>
-            <li class="sidebar__list">
-              <img src="../assets/img/sun.jpg" alt="Gato" class="sidebar__img">
-              <div class="sidebar__details">
-                <a href="./article.html" class="sidebar__post-title">Lojas com acessórios para pets</a>
-                <p class="sidebar__post-date">07/08/2020</p>
-              </div>
-            </li>
-          </ul>
-        </aside>
-      </div> -->
+        <p>
+          Praesent faucibus dui sed nulla egestas lobortis. Integer molestie
+          nunc in turpis sagittis commodo. Morbi diam nulla, efficitur nec
+          euismod pretium, lobortis egestas erat. Nullam at laoreet arcu, sed
+          luctus sapien. Aliquam porta vehicula lorem. Donec laoreet eget tellus
+          et finibus. Vivamus semper consequat metus ac blandit. Maecenas non
+          purus eget metus rhoncus eleifend. In hac habitasse platea dictumst.
+          Nulla ut lacinia augue, vehicula ullamcorper tellus.
+        </p>
 
-    </main>
+        <p>
+          Donec in dictum elit. Vestibulum pulvinar vitae orci in malesuada.
+          Morbi facilisis mi quis tortor tincidunt consequat. Quisque luctus
+          imperdiet ultrices. Aliquam pretium, velit vel consequat sollicitudin,
+          massa tortor pharetra elit, vitae consequat leo dolor non felis. Donec
+          sodales scelerisque massa, sagittis maximus orci elementum venenatis.
+          Vestibulum ornare sollicitudin metus, sed lacinia ligula blandit eget.
+          Aenean at magna ut arcu dictum accumsan a at felis.
+        </p>
+
+        <p>
+          Curabitur non nibh ac est suscipit ornare placerat non nisi. Phasellus
+          eleifend, leo eu molestie pharetra, nunc erat cursus libero, nec
+          lacinia turpis tellus et nulla. Phasellus commodo leo vel tortor
+          ultricies, eu efficitur diam pellentesque. Ut dolor velit, tincidunt
+          id quam quis, fermentum faucibus nibh. Aliquam tincidunt rhoncus
+          felis. Ut nisi dolor, consequat quis facilisis at, efficitur sit amet
+          neque. Sed tortor dolor, interdum ac mi in, dignissim pretium mauris.
+        </p>
+
+        <p>
+          Morbi quis imperdiet erat. Nunc vel magna aliquam, posuere mauris sed,
+          auctor mauris. Quisque eget nibh at lacus sagittis dapibus. Donec
+          placerat imperdiet odio at ultrices. Aliquam erat volutpat. Ut egestas
+          pulvinar feugiat. In pellentesque est sed nibh egestas, sed
+          ullamcorper felis tincidunt. Aenean nec dictum tortor. Suspendisse
+          quis fermentum metus, vel viverra odio. Pellentesque ut blandit dui.
+          Suspendisse in interdum erat, at lobortis nulla. Aenean posuere dictum
+          mauris, a auctor elit eleifend vel.
+        </p>
+      </div>
+    </article>
 
     <footer class="footer">
       <img
         src="../assets/img/footer-logo.png"
-        alt="Footer Logo"
+        alt="Footer logo"
         class="footer__logo"
       />
-      <p class="footer_txt">2021 Gatito Blog. All rights reserved.</p>
+      <p class="footer__txt">© 2020 Gatito Blog . All rights reserved.</p>
     </footer>
   </body>
 </html>

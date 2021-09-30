@@ -68,6 +68,44 @@ Arquitetura de CSS - BEM:
 
     BEM deixa o nosso CSS com uma estrutura modular. Por conta dos nomes únicos, não acontecerão conflitos entre as classes, o que facilita a manutenção. Porém, às vezes, os nomes das classes ficam muito compridos ao se usar a metodologia, mas com o uso de um pré-processador (como estamos usando no curso), isso não será um grande problema (pois usaremos o nesting).
 
+At Rules:
+
+    Grande parte das funções extras do Sass vem no formato de At rules, e nesta aula vimos alguns exemplos como mixins, function, import, extend e include, mas existem diversas At Rules:
+
+        @use: carrega mixins, functions e variáveis de outras folhas de estilos Sass e combina o CSS de diversas folhas de estilo juntos.
+
+        @forward: carrega uma folha de estilo Sass e torna os mixins, functions e variáveis disponíveis quando a folha de estilo é carregada pela regra do @use.
+
+        @import: estende as regras de CSS para carregar styles, mixins, functions e variáveis de outras folhas de estilo.
+
+        @mixins e @include: facilitam a reutilização de trechos de código.
+
+        @function: define funções customizadas que podem ser utilizadas em expressões.
+
+        @extend: permite que os seletores herdem estilos uns dos outros.
+
+        @at-root: coloca estilos dentro dele na raiz do documento CSS.
+
+        @error: faz com que a compilação falhe com uma mensagem de erro.
+
+        @warn: imprime um aviso sem parar totalmente a compilação.
+
+        @debug: imprime uma mensagem para fins de debugging.
+
+        E também fluxos de controle, como: @if, @each, @for e @while.
+
+
+Como criar um placeholder selector e como usá-lo com extend.
+O Placeholder Selector é um tipo especial de seletor que é bem parecido com um seletor convencional mas com um % na frente e ele também não é exibido no arquivo CSS após ser compilado.
+O que são os mixins.
+Mixins permitem definir estilos que podem ser reutilizados, e isso evita o uso de classes repetitivas e não semânticas como .float-left, e também distribui coleções de estilo para bibliotecas.
+Como deixar o site responsivo usando media queries com mixins.
+Os media queries já são usados no CSS convencional, porém, com os mixins, é possível setar seus valores em apenas um lugar e reutilizá-lo em todo o código e, caso seja necessário, a alteração dos valores será feita em apenas um lugar.
+Como criar funções no Sass.
+As funções no Sass permitem definir operações complexas que podem ser reutilizadas em todo o projeto, facilitando abstração de comportamentos em comum.
+Como importar arquivos no Sass.
+Vimos como abstrair o nosso CSS, deixando ele separado para cada uma das páginas. Dessa maneira a manutenção fica mais fácil e, para os CSS abstraídos funcionarem, nós usamos o @import, que importa os arquivos dentro de um principal
+
 Comando para compilar e transformar o scss em css:
 
     sass ./assets/styles/scss/style.scss:./assets/styles/css/style.css

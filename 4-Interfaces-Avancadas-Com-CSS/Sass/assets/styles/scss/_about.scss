@@ -56,9 +56,9 @@
     }
 
     &__img {
-        // @extend %double-margin-bottom;
         width: 100%;
-        margin-bottom: 20px;
+        @extend %double-margin-bottom;
+        // margin-bottom: 20px;
     }
 
     &__intro {

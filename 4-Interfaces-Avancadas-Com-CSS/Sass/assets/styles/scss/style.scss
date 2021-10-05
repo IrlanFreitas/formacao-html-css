@@ -8,6 +8,9 @@ $light-grey: #EAEAEB;
 $dark-grey: #464646;
 $img-width: 45%;
 
+$directions: top, bottom, left, right;
+$layout-margin-size: 10px;
+
 // ! Placeholder Selector
 
 %no-decoration {
@@ -66,6 +69,25 @@ $img-width: 45%;
     @return ($pixels / 16px) * 1rem;
 }
 
+// ! Flow Control
+
+@each $direction in $directions {
+    //* Criando vários Placeholder Selector baseados numa lista e um valor fixo;
+
+    %no-margin-#{$direction} {
+        margin-#{$direction} : 0;
+    }
+    %default-margin-#{$direction} {
+        margin-#{$direction} : $layout-margin-size;
+    }
+    %double-margin-#{$direction} {
+        margin-#{$direction} : $layout-margin-size * 2;
+    }
+    %half-margin-#{$direction} {
+        margin-#{$direction} : $layout-margin-size / 2;
+    }
+}
+
 // ! Pages
 
-@import "header", "main", "footer", "article", "about";
+@import "header", "main", "footer", "article", "about", ;
